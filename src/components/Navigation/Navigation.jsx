@@ -3,7 +3,7 @@ import Logo from "../../assets/logo/logo.png"
 const Navigation = () => {
 
     return (
-        <nav className="bg-white-200 text-black p-6 w-full flex items-center justify-between fixed ">
+        <nav className="bg-white-200 text-black p-6 w-full flex items-center justify-between sticky ">
             {/* Logo */}
             <a href="/" className="flex items-center space-x-4">
                 <img

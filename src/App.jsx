@@ -1,4 +1,4 @@
-import Body from "./components/Body/Body"
+import Body from "./Pages/Body/Body"
 import Navigation from "./components/Navigation/Navigation"
 
 function App() {
