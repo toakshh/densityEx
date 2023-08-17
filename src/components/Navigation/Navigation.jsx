@@ -3,7 +3,7 @@ import Logo from "../../assets/logo/logo.png"
 const Navigation = () => {
 
     return (
-        <nav className="bg-white-200 text-black p-6 w-full flex items-center justify-between sticky ">
+        <nav className="bg-white-200 text-black px-16 py-8 w-full flex items-center justify-between sticky ">
             {/* Logo */}
             <a href="/" className="flex items-center space-x-4">
                 <img
@@ -23,7 +23,7 @@ const Navigation = () => {
 
             {/* Download App Button */}
             <div className="">
-                <button className="bg-black hover:bg-yellow-200 hover:text-black text-white py-2 px-4 rounded-full">
+                <button className="bg-black hover:bg-yellow-200 hover:text-black text-white py-2 px-4 rounded-full transition-colors duration-500">
                     Download App
                 </button>
             </div>
