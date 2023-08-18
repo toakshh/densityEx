@@ -31,7 +31,7 @@ const Hero = () => {
                 transition={{ duration: .9, easings:["easeInOut"] }}
                 className="md:w-1/2 flex justify-center items-center w-100 overflow-hidden"
             >
-                <img src={phone} alt="mobile" className="max-h-[85%] hover:scale-110 p-14 ease-in-out duration-500 hover:rotate-12  border-4 border-dashed border-white rounded-full" loading="lazy" />
+                <img src={phone} alt="mobile" className="max-h-[85%] hover:scale-110 p-14 ease-in-out duration-500 hover:rotate-12  border-4 border-dashed border-white rounded-full"  />
             </motion.div>
         </div>
     )
