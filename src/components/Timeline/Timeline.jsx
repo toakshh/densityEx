@@ -34,7 +34,7 @@ const Timeline = () => {
                 {
                     timelineData.map(item => {
                         return (
-                            <li key={item.id} className="mb-10 ml-4">
+                            <li key={item.id} className="mb-10 ml-4 hover:scale-110 duration-500">
                                 <div className="absolute w-2 h-2 rounded-full mt-1.5 -left-1 border border-white dark:border-gray-900 dark:bg-blue-600"></div>
                                 <h3 className="text-lg font-medium text-black-900">{item.heading}</h3>
                                 <p className="mb-4 text-base font-normal text-gray-500">{item.description}</p>

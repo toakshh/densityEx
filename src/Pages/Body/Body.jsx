@@ -1,4 +1,5 @@
 
+import Anonymous from "../../components/Anonymous/Anonymous"
 import Cards from "../../components/Cards/Cards"
 import Eqbeats from "../../components/EqBeats/Eqbeats"
 import Hero from "../../components/Hero/Hero"
@@ -26,6 +27,7 @@ const Body = () => {
             <Meet />
             <Timeline />
             <Eqbeats content={bestIq}/>
+            <Anonymous />
         </main>
     )
 }
