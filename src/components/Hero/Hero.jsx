@@ -14,7 +14,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="md:w-1/2 flex justify-center items-center w-100 overflow-hidden">
-                <img src={phone} alt="mobile" className="max-h-100 hover:scale-110 p-14 ease-in-out duration-500 hover:rotate-12  border-4 border-dashed border-white rounded-full" />
+                <img src={phone} alt="mobile" className="max-h-[85%] hover:scale-110 p-14 ease-in-out duration-500 hover:rotate-12  border-4 border-dashed border-white rounded-full" />
             </div>
         </div>
     )

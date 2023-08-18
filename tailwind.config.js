@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      'hero-section': "url('./src/assets/svg/faces.svg')"
+      
     },
   },
   plugins: [],
