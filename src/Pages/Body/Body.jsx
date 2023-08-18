@@ -5,6 +5,7 @@ import Hero from "../../components/Hero/Hero"
 import Meet from "../../components/Meet/Meet"
 import Test from "../../components/Test/Test"
 import Timeline from "../../components/Timeline/Timeline"
+import Work from "../../components/Work/Work"
 
 const eqBeatsIq= {
     heading:"EQ beats IQ",
@@ -28,6 +29,7 @@ const Body = () => {
             <Eqbeats content={bestIq}/>
             <Anonymous />
             <Test />
+            <Work />
         </main>
     )
 }
