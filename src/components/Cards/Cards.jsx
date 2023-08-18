@@ -58,7 +58,7 @@ const Cards = () => {
     }]
     return (
         <div className="mx-6" >
-            <h1 className="font-semibold md:text-5xl text-2xl inline-flex">Does this sound familiar... <span><img src={angryFace} alt="angryFace" className="w-20 h-20" /></span></h1>
+            <h1 className="font-semibold md:text-5xl text-2xl inline-flex">Does this sound familiar... <span><img src={angryFace} alt="angryFace" className="w-20 h-20 hover:rotate-45 duration-200" /></span></h1>
             <div className="flex overflow-x-scroll gap-14 my-5 p-10 overflow-visible ">
                 {
                     cardData.map(item=>{

@@ -28,7 +28,7 @@ const Vacancies = () => {
                 {
                     cardJob.map(item => {
                         return (
-                            <div key={item.id} className='select-none gap-2 sm:w-96 w-[80%] h-auto flex flex-col flex-nowrap p-10 bg-pink-100 rounded-2xl duration-500 ease-in-out'>
+                            <div key={item.id} className='select-none gap-2 sm:w-96 w-[80%] h-auto flex flex-col flex-nowrap p-10 bg-pink-100 rounded-2xl hover:scale-y-125 duration-700 ease-in-out'>
                                 <h5 className='font-semibold'>{item.heading}</h5>
                                 <p >{item.content}</p>
                             </div>

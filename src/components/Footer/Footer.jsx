@@ -8,7 +8,7 @@ const Footer = () => {
                 <img
                     src={logo}
                     alt="Logo"
-                    className="h-20 w-20 rounded-full hover:scale-125 ease-in-out duration-500"
+                    className="h-20 w-20 rounded-full hover:scale-110 hover:-rotate-180 ease-in-out duration-500"
                 />
                 <p><span className="text-sm font-light mr-10">New York, 235234 USA</span><span className="text-sm font-light">toakshh@gmail.com</span></p>
                 <img src={Download} alt="download button" />
