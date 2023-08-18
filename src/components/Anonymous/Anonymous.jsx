@@ -9,8 +9,8 @@ const Anonymous = () => {
                     <img src={"star"} alt="" className="max-w-full" />
                 </div>
             </div>
-
-            <div className=" hidden md:block bg-white lg:w-4/6 md:w-full sm:w-5/6 w-1/2 md:p-16 p-6 overflow-visible rounded-3xl shadow-2xl hover:scale-125 duration-500">
+            {/* for larger screens */}
+            <div className=" hidden md:block bg-white lg:w-4/6 md:w-full sm:w-5/6 w-1/2 md:p-16 p-6 overflow-visible rounded-3xl shadow-2xl hover:scale-110 duration-500">
                 <h1 className="border-b-2 relative text-white font-semibold">
                     <div className="absolute  -left-14 -top-14 px-3 py-2  bg-violet-500 rounded-lg">You</div>
                     <div className="absolute w-3 h-3 rounded-full -mt-1 left-0 bg-violet-500"></div>
@@ -22,6 +22,7 @@ const Anonymous = () => {
                     <div className="absolute w-3 h-3 rounded-full -mt-1 right-0 bg-green-400"></div>
                 </h1>
             </div>
+            {/* for mobile devices */}
             <div className=" md:hidden bg-white lg:w-4/6 md:w-full sm:w-5/6 w-1/2 md:p-16 p-6 overflow-visible flex justify-center rounded-3xl shadow-2xl hover:scale-125 duration-500">
             <div className="w-0.5 h-44 bg-gray-300 relative">
                     <div className="absolute  -top-10 -right-16 px-3 py-2 bg-violet-500 rounded-lg">You</div>
