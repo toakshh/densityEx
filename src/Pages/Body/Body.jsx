@@ -1,6 +1,7 @@
 import Anonymous from "../../components/Anonymous/Anonymous"
 import Cards from "../../components/Cards/Cards"
 import Eqbeats from "../../components/EqBeats/Eqbeats"
+import Footer from "../../components/Footer/Footer"
 import Hero from "../../components/Hero/Hero"
 import Meet from "../../components/Meet/Meet"
 import Test from "../../components/Test/Test"
@@ -32,6 +33,7 @@ const Body = () => {
             <Test />
             <Work />
             <Vacancies />
+            <Footer />
         </main>
     )
 }

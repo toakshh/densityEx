@@ -21,7 +21,7 @@ const cardJob = [{
 }]
 const Vacancies = () => {
     return (
-        <div>
+        <div className="mb-36">
             <h2 className="sm:text-5xl text-2xl font-semibold md:m-10 m-3">Open vacancies</h2>
             <div className="flex lg:flex-row flex-col justify-center items-center md:p-12 p-3 gap-4">
 
