@@ -31,9 +31,9 @@ const cardData = [{
 }]
 const Work = () => {
     return (
-        <div className="h-[130vh]  rounded-3xl md:mx-6 mx-0 my-64 flex flex-col md:flex-row justify-between md:p-10" style={{ backgroundColor: "#F3F1FF" }}>
+        <div className="md:h-[150vh] h-fit  rounded-3xl md:mx-6 mx-0 my-64 flex flex-col md:flex-row justify-between md:p-10" style={{ backgroundColor: "#F3F1FF" }}>
             <div className="md:w-1/2 w-full flex gap-4 flex-col pt-10">
-                <h2 className="text-5xl font-bold">Work with us</h2>
+                <h2 className="sm:text-5xl text-3xl text-center font-bold">Work with us</h2>
                 <div>
                     <div className="md:p-10 p-3 bg-white rounded-3xl gap-4 flex flex-col md:w-full w-3/4 md:mx-0 mx-auto hover:scale-110 duration-500">
                         <img src={purpleFace} alt="purple face" className="w-16 h-16" />
@@ -48,7 +48,7 @@ const Work = () => {
             </div>
 
             <div className="md:w-1/2 w-full pt-10 flex flex-col gap-4">
-                <h2 className="text-5xl text-blue-700 font-bold self-end">ahead</h2>
+                <h2 className="sm:text-5xl text-3xl md:self-end self-center text-blue-700 font-bold">ahead</h2>
                 <div className="lg:max-h-[90%] max-h-fit overflow-y-scroll gap-8 p-4 flex md:flex-col flex-row md:overflow-y-scroll overflow-x-scroll items-end ">
                     {
                         cardData.map(item => {

@@ -5,6 +5,7 @@ import Hero from "../../components/Hero/Hero"
 import Meet from "../../components/Meet/Meet"
 import Test from "../../components/Test/Test"
 import Timeline from "../../components/Timeline/Timeline"
+import Vacancies from "../../components/Vacancies/Vacancies"
 import Work from "../../components/Work/Work"
 
 const eqBeatsIq= {
@@ -30,6 +31,7 @@ const Body = () => {
             <Anonymous />
             <Test />
             <Work />
+            <Vacancies />
         </main>
     )
 }
