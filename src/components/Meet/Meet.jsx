@@ -19,6 +19,7 @@ const Meet = () => {
         if (!inView) {
             rightContent.start({ x: 500, y: 450 })
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [inView])
 
     return (
