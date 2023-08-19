@@ -21,7 +21,7 @@ const Hero = () => {
         }
     },[inView])
     return (
-        <div ref={ref} className="md:mx-6 mx-2 rounded-3xl md:h-screen flex flex-col-reverse md:flex-row" style={{ backgroundColor: '#EEEBFE' }}>
+        <div ref={ref} className="overflow-x-hidden md:mx-6 mx-2 rounded-3xl md:h-screen flex flex-col-reverse md:flex-row" style={{ backgroundColor: '#EEEBFE' }}>
             <motion.div
                 
                 initial={{ x: -200 }}
